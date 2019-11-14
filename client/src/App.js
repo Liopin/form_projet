@@ -1,6 +1,7 @@
 import React from 'react';
 import ResgisteredList from './components/ResgisteredList';
 import Resgistered from './components/Resgistered';
+import EventName from './components/EventName';
 import './App.scss';
 
 
@@ -28,6 +29,7 @@ function App() {
       </nav>
       <ResgisteredList/>
       <Resgistered/>
+      <EventName/>
     </div>
 
   );

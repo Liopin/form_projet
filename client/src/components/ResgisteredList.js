@@ -5,6 +5,8 @@ import React from 'react';
 class ResgisteredList extends React.Component{
 constructor(props){
 super(props);
+
+
 this.state = {userList : ['Lionel','Romain','Mickael']};
 }
     render(){
